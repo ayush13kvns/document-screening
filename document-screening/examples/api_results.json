@@ -1,0 +1,87 @@
+{
+  "results": [
+    {
+      "id": "invoice-mismatch",
+      "decision": "likely_incorrect",
+      "basis": "reference_mismatch",
+      "incorrect_probability": 0.450821,
+      "vocabulary_coverage": 1.0,
+      "checks": [
+        {
+          "field": "invoice_total",
+          "status": "mismatch"
+        },
+        {
+          "field": "currency",
+          "status": "match"
+        }
+      ],
+      "reasons": [
+        "CLAIM_REFERENCE_MISMATCH"
+      ],
+      "model_version": "5ea6b55e08457cf5",
+      "demo_model": true
+    },
+    {
+      "id": "matching-record",
+      "decision": "review",
+      "basis": "demo_model",
+      "incorrect_probability": 0.426144,
+      "vocabulary_coverage": 1.0,
+      "checks": [
+        {
+          "field": "customer_id",
+          "status": "match"
+        },
+        {
+          "field": "invoice_total",
+          "status": "match"
+        }
+      ],
+      "reasons": [
+        "DEMO_MODEL_NOT_VALIDATED"
+      ],
+      "model_version": "5ea6b55e08457cf5",
+      "demo_model": true
+    },
+    {
+      "id": "suspicious-message",
+      "decision": "review",
+      "basis": "demo_model",
+      "incorrect_probability": 0.595152,
+      "vocabulary_coverage": 1.0,
+      "checks": [],
+      "reasons": [
+        "DEMO_MODEL_NOT_VALIDATED"
+      ],
+      "model_version": "5ea6b55e08457cf5",
+      "demo_model": true
+    },
+    {
+      "id": "ambiguous",
+      "decision": "review",
+      "basis": "insufficient_text",
+      "incorrect_probability": 0.468542,
+      "vocabulary_coverage": 0.5,
+      "checks": [],
+      "reasons": [
+        "SHORT_TEXT"
+      ],
+      "model_version": "5ea6b55e08457cf5",
+      "demo_model": true
+    },
+    {
+      "id": "unknown-domain",
+      "decision": "review",
+      "basis": "insufficient_text",
+      "incorrect_probability": 0.501583,
+      "vocabulary_coverage": 0.0,
+      "checks": [],
+      "reasons": [
+        "LOW_VOCABULARY_COVERAGE"
+      ],
+      "model_version": "5ea6b55e08457cf5",
+      "demo_model": true
+    }
+  ]
+}

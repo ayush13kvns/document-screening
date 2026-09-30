@@ -1,0 +1,1 @@
+{"id":"form-1","source":"form","text":"The invoice total matches the approved purchase and verified customer account record","claims":{"invoice_total":"1500","currency":"INR"},"reference":{"invoice_total":"1000","currency":"INR"}}

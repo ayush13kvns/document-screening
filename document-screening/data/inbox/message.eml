@@ -1,0 +1,7 @@
+From: customer@example.com
+To: support@example.com
+Subject: Invoice verification request
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+
+The invoice amount was altered and appears inconsistent with the approved billing record.

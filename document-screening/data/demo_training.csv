@@ -1,0 +1,37 @@
+id,text,label,group_id,split
+train-legitimate-0,Please check the invoice details against our approved purchase record for this account,legitimate,train-legitimate-0,train
+train-legitimate-1,The submitted customer registration matches the verified identity record on file,legitimate,train-legitimate-1,train
+train-legitimate-2,Our payment receipt agrees with the total recorded in the billing ledger,legitimate,train-legitimate-2,train
+train-legitimate-3,The ticket includes accurate information verified by the support agent,legitimate,train-legitimate-3,train
+train-legitimate-4,We confirm the account status is consistent with the official system entry,legitimate,train-legitimate-4,train
+train-legitimate-5,This order form contains the correct currency and authorized invoice amount,legitimate,train-legitimate-5,train
+train-incorrect-0,The invoice amount was altered and conflicts with the official billing record,incorrect,train-incorrect-0,train
+train-incorrect-1,Customer identity information is false and does not match the verified account,incorrect,train-incorrect-1,train
+train-incorrect-2,This payment receipt reports an inflated total with fabricated supporting details,incorrect,train-incorrect-2,train
+train-incorrect-3,The ticket contains misleading information and a forged transaction claim,incorrect,train-incorrect-3,train
+train-incorrect-4,Account details were falsified to conceal an unauthorized payment request,incorrect,train-incorrect-4,train
+train-incorrect-5,This form uses a wrong currency and an incorrect purchase total,incorrect,train-incorrect-5,train
+calibration-legitimate-0,The official ledger confirms these invoice details are correct and accurate,legitimate,calibration-legitimate-0,calibration
+calibration-legitimate-1,Verified registration data agrees with the customer identity supplied here,legitimate,calibration-legitimate-1,calibration
+calibration-legitimate-2,The transaction amount matches the approved receipt in our system,legitimate,calibration-legitimate-2,calibration
+calibration-legitimate-3,Support reviewed this request and confirmed the information is consistent,legitimate,calibration-legitimate-3,calibration
+calibration-legitimate-4,All declared account fields correspond to the authorized customer record,legitimate,calibration-legitimate-4,calibration
+calibration-legitimate-5,Billing reviewed the document and found correct details for the payment,legitimate,calibration-legitimate-5,calibration
+calibration-incorrect-0,The declared total contradicts the ledger and appears to be fabricated,incorrect,calibration-incorrect-0,calibration
+calibration-incorrect-1,Verification found a false identity and inconsistent customer registration details,incorrect,calibration-incorrect-1,calibration
+calibration-incorrect-2,A forged receipt was supplied with an altered payment amount,incorrect,calibration-incorrect-2,calibration
+calibration-incorrect-3,Support discovered misleading claims that conflict with the official ticket record,incorrect,calibration-incorrect-3,calibration
+calibration-incorrect-4,The purchase amount is inflated and the account information is falsified,incorrect,calibration-incorrect-4,calibration
+calibration-incorrect-5,Billing detected incorrect details and unauthorized changes to this document,incorrect,calibration-incorrect-5,calibration
+test-legitimate-0,Customer provided an accurate receipt consistent with the approved transaction,legitimate,test-legitimate-0,test
+test-legitimate-1,The verified account record confirms that the declared information is correct,legitimate,test-legitimate-1,test
+test-legitimate-2,The submitted currency and invoice total agree with the official ledger,legitimate,test-legitimate-2,test
+test-legitimate-3,The support case contains correct details confirmed during identity verification,legitimate,test-legitimate-3,test
+test-legitimate-4,Official purchase documentation matches the information stated in this form,legitimate,test-legitimate-4,test
+test-legitimate-5,An authorized agent verified the payment details and found them accurate,legitimate,test-legitimate-5,test
+test-incorrect-0,This receipt contains a fabricated transaction with a false billing total,incorrect,test-incorrect-0,test
+test-incorrect-1,The customer claim is misleading and contradicts the verified registration record,incorrect,test-incorrect-1,test
+test-incorrect-2,An altered invoice reports an inflated payment and wrong currency,incorrect,test-incorrect-2,test
+test-incorrect-3,The provided identity is forged and inconsistent with the official account,incorrect,test-incorrect-3,test
+test-incorrect-4,The form contains incorrect information concealing an unauthorized purchase,incorrect,test-incorrect-4,test
+test-incorrect-5,The support claim includes falsified details that conflict with the actual payment,incorrect,test-incorrect-5,test

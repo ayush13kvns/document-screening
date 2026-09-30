@@ -1,0 +1,45 @@
+{
+  "demo": true,
+  "warning": "Synthetic results do not establish real-world accuracy",
+  "counts": {
+    "train": {
+      "legitimate": 6,
+      "incorrect": 6
+    },
+    "calibration": {
+      "legitimate": 6,
+      "incorrect": 6
+    },
+    "test": {
+      "legitimate": 6,
+      "incorrect": 6
+    }
+  },
+  "test_metrics": {
+    "pr_auc_average_precision": 0.9583333333333333,
+    "roc_auc": 0.9444444444444445,
+    "precision_at_0_5": 1.0,
+    "recall_at_0_5": 0.8333333333333334,
+    "f1_at_0_5": 0.9090909090909091,
+    "brier_score": 0.22072333876443373,
+    "confusion_matrix_true_rows_pred_columns": [
+      [
+        6,
+        0
+      ],
+      [
+        1,
+        5
+      ]
+    ],
+    "score_only_coverage": 0.0,
+    "score_only_review_rate": 1.0,
+    "selected_accuracy": null
+  },
+  "thresholds": {
+    "low": 0.1,
+    "high": 0.9
+  },
+  "data_sha256": "7268725f69e359e8c0949924f8e45a7398d904e3643c72f8ea07ac5a68a875b3",
+  "notes": "Selective metrics use score thresholds only; operational decisions also apply text quality, demo and evidence gates."
+}

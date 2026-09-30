@@ -1,0 +1,5 @@
+{"id": "invoice-mismatch", "text": "The invoice total for this customer is correct and matches the billing record", "source": "form", "claims": {"invoice_total": "1250.00", "currency": "INR"}, "reference": {"invoice_total": "950.00", "currency": "INR"}}
+{"id": "matching-record", "text": "The verified customer registration matches the official account record and approved invoice", "source": "form", "claims": {"customer_id": "C-102", "invoice_total": "950.00"}, "reference": {"customer_id": "C-102", "invoice_total": "950.0"}}
+{"id": "suspicious-message", "text": "The invoice was altered and contains a fabricated payment total with false identity details", "source": "email"}
+{"id": "ambiguous", "text": "Please help", "source": "ticket"}
+{"id": "unknown-domain", "text": "Quantum photonic resonator entanglement eigenstates exhibit topological birefringence coupling", "source": "ticket"}
